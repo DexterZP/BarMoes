@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "723486890224",
+    "firebase_url": "https://bar-do-moes.firebaseio.com",
+    "project_id": "bar-do-moes",
+    "storage_bucket": "bar-do-moes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723486890224:android:3dab886afb684a9e",
+        "android_client_info": {
+          "package_name": "br.dexter.barmoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723486890224-7i6u6o08nknm59jlp21c8fp9t6e6v102.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.dexter.barmoes",
+            "certificate_hash": "e3f202427f664854a7c2f64116e3c51dcc63d6d9"
+          }
+        },
+        {
+          "client_id": "723486890224-bul6rromjo6rvg4nam5buoht5f7r2fvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT0ZPnKUG3D9tuDBJxDSv5dXvvrxDXRVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723486890224-bul6rromjo6rvg4nam5buoht5f7r2fvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

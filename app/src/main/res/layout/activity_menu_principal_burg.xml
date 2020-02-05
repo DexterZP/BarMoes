@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipal.menuPrincipal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardClick"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:shape="ring"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_hamburguer"
+                android:layout_gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/nameOfHamburguer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PCQ"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nameOfText"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mudar molho"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>

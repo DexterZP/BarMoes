@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BarMoes</string>
+
+    <string-array name="Hamburgueres">
+        <item>PCQ</item>
+        <item>Linda Lisa</item>
+        <item>El Barto</item>
+        <item>Lenny</item>
+        <item>Zelador Willie</item>
+        <item>Marge</item>
+        <item>Homer</item>
+        <item>Moes</item>
+        <item>Choripan</item>
+    </string-array>
+</resources>

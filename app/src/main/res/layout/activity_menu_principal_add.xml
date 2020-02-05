@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameOfMesa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MESA 01"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Escolha o Hambúrguer"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <com.rey.material.widget.Spinner
+                    style="@style/Material.Widget.Spinner"
+                    android:id="@+id/spinner_Select"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    app:spn_dividerHeight="0dp"
+                    app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:id="@+id/InputText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="Comentários extras"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textMultiLine" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/Adicionar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round"
+                    android:text="Adicionar"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    app:rd_enable="true"
+                    app:rd_rippleType="wave"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/Encerrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round2"
+                    android:text="Encerrar mesa"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    app:rd_enable="true"
+                    app:rd_rippleType="wave"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
